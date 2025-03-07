@@ -1,0 +1,22 @@
+{
+    "name": "myparcelcom/castify",
+    "description": "A package for casting and transforming DTOs.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^12.0",
+        "mockery/mockery": "^1.6"
+    },
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Myparcelcom\\Castify\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yoan-Alexander Grigorov",
+            "email": "yoan@myparcel.com"
+        }
+    ],
+    "require": {}
+}
